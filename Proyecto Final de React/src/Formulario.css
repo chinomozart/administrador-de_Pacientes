@@ -1,0 +1,15 @@
+.inputform{
+    display: flex;
+    flex-direction: column;
+}
+.mascota{
+   color: white;
+}
+
+.dueño{
+    color: white;
+    margin-top: 10%;
+}
+.boton1{
+    margin-top: 10%;
+}
