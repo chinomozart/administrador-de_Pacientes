@@ -22,6 +22,7 @@ export default function Formulario(){
             sintomas,
         }
         setPacientes([...pacientes,informacion,date,hora,sintomas])
+        //diccionario
         setMascota("")
         setDueño("")
         setDate("")
