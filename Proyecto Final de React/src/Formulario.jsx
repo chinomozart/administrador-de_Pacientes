@@ -5,8 +5,7 @@ import { useState } from "react";
 
 
 
-export default function Formulario(){
-    const[pacientes,setPacientes]=useState([])
+export default function Formulario({pacientes,setPacientes}){
     const[mascota,setMascota]=useState("")
     const[dueño,setDueño]=useState("")
     const[date,setDate]=useState("")
@@ -22,7 +21,6 @@ export default function Formulario(){
             sintomas,
         }
         setPacientes([...pacientes,informacion,date,hora,sintomas])
-        //diccionario
         setMascota("")
         setDueño("")
         setDate("")
