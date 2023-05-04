@@ -1,4 +1,16 @@
 .pacienteConatainer{
     background-color: white;
     color: black;
+    width: 30vw;
+    height: 40vh;
+    font-display:center;
+    margin-bottom: 15%;
+    border-color: yellow;
+    border-radius: 2%;
+   
+    
 }
+.button2{
+    margin-top: 2%;
+}
+

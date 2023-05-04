@@ -6,3 +6,14 @@ body{
 :root{
   width: 100%;
 }
+
+button{
+  background-color: white;
+  color: palevioletred;
+  width: 5vw;
+  height: 8vh;
+  border-radius: 20%}
+
+button:hover{
+  background-color: yellow;
+}

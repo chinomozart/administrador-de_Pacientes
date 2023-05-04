@@ -25,7 +25,7 @@ function App() {
      <div>
        <Header titulo="Listado de Pacientes"></Header>
        {pacientes.map((paciente)=>{
-        return <Paciente nombre={paciente.mascota} dueño={paciente.dueño} date={paciente.date} hora={paciente.hora} sintomas={paciente.sintomas}/>
+        return <Paciente pacientes={pacientes} setPacientes={setPacientes} nombre={paciente.mascota} dueño={paciente.dueño} date={paciente.date} hora={paciente.hora} sintomas={paciente.sintomas}/>
        })}
      </div>     
     </div>

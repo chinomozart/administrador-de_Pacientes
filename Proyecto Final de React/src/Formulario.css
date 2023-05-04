@@ -27,3 +27,9 @@
     margin-top: 10%;
     color: white;
 }
+
+input{
+    width: 30vw;
+    height: 5vh;
+    border-color: yellow;
+    }
